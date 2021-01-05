@@ -33,7 +33,7 @@ If (Get-Service $serviceName -ErrorAction SilentlyContinue) {
 
     Try
     {
-        Invoke-WebRequest -Uri $downloadlink -OutFile $OutPath\$output -UseBasicParsing
+        Invoke-WebRequest -Uri $downloadlink -OutFile $OutPath\$output
         Start-Process -FilePath $OutPath\$output -ArgumentList ('/VERYSILENT /SUPPRESSMSGBOXES') -Wait
         write-host ('Extracting...')
         Start-Sleep -s 10
