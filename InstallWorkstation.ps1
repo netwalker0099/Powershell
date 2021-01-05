@@ -8,7 +8,7 @@ $power = 1
 $rdp = 1
 $ping = 1
 $auth = '"3270859a5da6b7081fb4c017b76349d692126a105366f858331379b0387d4ca4"'
-$downloadlink = 'https://github.com/wh1te909/rmmagent/releases/download/v1.1.12/winagent-v1.1.12.exe'
+$downloadlink = 'https://www.dropbox.com/s/k7r56ln3mds96rm/winagent-v1.1.12.exe?dl=1'
 
 $serviceName = 'tacticalagent'
 If (Get-Service $serviceName -ErrorAction SilentlyContinue) {
