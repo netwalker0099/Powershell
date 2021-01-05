@@ -1,13 +1,13 @@
 # author: https://github.com/bradhawkins85
 $innosetup = 'winagent-v1.1.12.exe'
 $api = '"https://api.rkbcloud.net"'
-$clientid = '26'
-$siteid = '36'
+$clientid = '27'
+$siteid = '37'
 $agenttype = '"workstation"'
 $power = 1
 $rdp = 1
 $ping = 1
-$auth = '"559a2bddee4838306bd8f90292c3ccbf44aef314ea33f31574e87552827029e8"'
+$auth = '"f5c9f9ba6ab395e32275fc5316a25c276b5b3005db44a1eac6025bcbd386da10"'
 $downloadlink = 'https://www.dropbox.com/s/k7r56ln3mds96rm/winagent-v1.1.12.exe?dl=1'
 
 $serviceName = 'tacticalagent'
